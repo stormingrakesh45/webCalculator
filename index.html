@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - By Rakesh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+            <button class="operator" onclick="buttonClick('AC')">AC</button>
+            <button class="operator" onclick="buttonClick('DEL')">DEL</button>
+            <button class="operator" onclick="buttonClick('%')">%</button>
+            <button class="operator" onclick="buttonClick('/')">/</button>
+        </div>
+        <div>
+            <button onclick="buttonClick('7')">7</button>
+            <button onclick="buttonClick('8')">8</button>
+            <button onclick="buttonClick('9')">9</button>
+            <button class="operator" onclick="buttonClick('*')">*</button>
+        </div>
+        <div>
+            <button onclick="buttonClick('4')">4</button>
+            <button onclick="buttonClick('5')">5</button>
+            <button onclick="buttonClick('6')">6</button>
+            <button class="operator" onclick="buttonClick('-')">-</button>
+        </div>
+        <div>
+            <button onclick="buttonClick('1')">1</button>
+            <button onclick="buttonClick('2')">2</button>
+            <button onclick="buttonClick('3')">3</button>
+            <button class="operator" onclick="buttonClick('+')">+</button>
+        </div>
+        <div>
+            <button onclick="buttonClick('00')">00</button>
+            <button onclick="buttonClick('0')">0</button>
+            <button onclick="buttonClick('.')">.</button>
+            <button class="eql-btn" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
